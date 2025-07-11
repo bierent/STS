@@ -1,6 +1,7 @@
 # STS
 Smarter Trading Systems. STS is a simple, yet powerful tool designed to help traders track and analyze their performance. 
 Build in Python with Flask. There are a lot of futures and spot tracking and journal apps/sites out there but none of them fit into a specific trading style so decided to build my own because excel started to get annoying. 
+All trades here are saved inside SQL database. 
 
 On main page you filter the visible trades in the last 30, this week, last month and all trades. You can edit each trade and make 'child' trades where for example you take partial profits or open a bigger position. These are taken into consideration of the calculation of the 'parent' trade.
 There is the possibility to enter hypothetical trades in a seperate account.
